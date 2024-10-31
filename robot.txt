@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /images/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /private/
+Disallow: /contact
+Disallow: /tentang-kami
+Disallow: /airdrop
+
+Allow: /
+
+Sitemap: https://

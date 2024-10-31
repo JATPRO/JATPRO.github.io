@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JATPRO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-black text-white">
+
+    <nav class="navbar flex justify-between items-center px-8 py-4 bg-gray-900 shadow-lg">
+        <h1
+            class="logo text-2xl font-bold text-white transition-all duration-500 transform hover:scale-110 hover:text-red-500">
+            JATPRO</h1>
+        <button class="menu-btn text-white md:hidden focus:outline-none transition-transform duration-500"
+            id="menu-btn">
+            <svg id="menu-icon-open" class="w-8 h-8 block transition duration-500 transform hover:rotate-90" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+            <svg id="menu-icon-close" class="w-8 h-8 hidden transition duration-500 transform hover:rotate-90"
+                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+        <ul class="menu-list hidden md:flex space-x-8 transition-all duration-500" id="menu-list">
+            <li><a href="#information"
+                    class="nav-link text-white transition-all duration-500 hover:text-red-500">Information</a></li>
+            <li><a href="#airdrop"
+                    class="nav-link text-white transition-all duration-500 hover:text-red-500">Airdrop</a></li>
+            <li><a href="#feature"
+                    class="nav-link text-white transition-all duration-500 hover:text-red-500">Features</a></li>
+        </ul>
+    </nav>
+
+
+    <header class="text-center py-20 bg-black relative">
+        <div class="absolute inset-0 opacity-10"
+            style="background-image: url('images/Blum.jpg'); background-size: cover;"></div>
+        <div class="relative z-10">
+            <h2 class="text-5xl font-bold">JATPRO</h2>
+            <p class="text-lg mt-4">Jasa Joki Airdrop Profesional</p>
+            <a onclick="add()"
+                class="mt-8 px-6 py-3 bg-red-600 text-white rounded-full font-semibold inline-block transition transform hover:scale-105 hover:bg-red-700 shadow-lg hover:shadow-xl active:scale-95">
+                Hubungi Kami
+            </a>
+
+            <script>
+                function add() {
+                    window.location.href = "https://t.me/JATPRO_THE_KING";
+                }
+            </script>
+        </div>
+    </header>
+
+
+    <section id="tentang-kami" class="py-12 px-6 bg-gray-900 text-center text-white">
+        <h2 class="text-3xl font-bold">Tentang Kami</h2>
+        <p class="mt-4 max-w-2xl mx-auto">
+            JATPRO adalah penyedia layanan joki airdrop profesional yang berdedikasi untuk membantu pengguna meraih
+            keuntungan dari airdrop kripto secara aman dan efisien.
+            Kami terdiri dari tim ahli yang berkomitmen untuk memberikan pelayanan terbaik, memprioritaskan keamanan,
+            dan memastikan hasil maksimal untuk klien kami.
+            Dengan pendekatan teknologi canggih dan layanan yang berorientasi pada pelanggan, JATPRO menjadi mitra
+            terpercaya dalam dunia airdrop.
+        </p>
+        <div class="mt-8">
+            <img src="https://freeairdrop.io/Images%20for/Airdrops/xion.webp" alt="Tim JATPRO"
+                class="w-48 h-48 rounded-full mx-auto">
+        </div>
+    </section>
+
+    <section id="information" class="py-12 px-6">
+        <h2 class="text-3xl font-bold text-center">INFORMATION</h2>
+        <div class="flex flex-col items-center mt-8 text-center">
+            <img src="https://freeairdrop.io/Images%20for/Airdrops/dogs.jpg" alt="Project Management Icon"
+                class="w-20 h-20">
+            <h3 class="text-xl font-semibold mt-4">Dogs</h3>
+            <p class="max-w-xl mt-4">DOGS adalah koin meme asli Telegram, mewujudkan semangat dan budaya komunitasnya
+                yang dinamis. DOGS mengirimkan token DOGS gratis berdasarkan usia akun telegram anda.</p>
+        </div>
+    </section>
+
+    <section class="py-12 px-6 bg-gray-900 text-center">
+        <div class="flex flex-col items-center">
+            <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/28850.png" alt="BLUM Logo" class="w-24 h-24">
+            <h3 class="text-2xl font-semibold mt-4">NotCoin</h3>
+            <p class="max-w-xl mt-4">Notcoin adalah permainan Telegram di mana Anda mendapatkan Notcoin dengan mengklik
+                koin. Notcoin memberikan Notcoin gratis melalui airdrop untuk memainkan game Telegram mereka.</p>
+        </div>
+    </section>
+
+
+    <section id="airdrop" class="py-12 px-6">
+        <h2 class="text-3xl font-bold text-center">Layanan Airdrop Kami</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-8">
+
+            <div class="bg-gray-700 p-6 rounded-lg text-center">
+                <h3 class="text-xl font-bold">Blum</h3>
+                <p class="mt-2 text-2xl font-semibold">Rp 150.000</p>
+                <ul class="mt-4 text-sm space-y-2">
+                    <li>- Auto Play Game</li>
+                    <li>- Auto Task</li>
+                    <li>- Auto Claim Friends</li>
+                    <li>- Telegram Account Protection</li>
+                    <li>- Real-Time 24jam</li>
+                </ul>
+                <a onclick="blum()" class="mt-4 px-6 py-2 bg-red-600 text-white rounded-lg inline-block font-semibold transition transform hover:scale-105 hover:bg-red-700 shadow-md hover:shadow-lg active:scale-95">Beli</a>
+                <script>
+                    function blum() {
+                        window.location.href = "https://wa.me/62881027107840?text=Joki%20airdrop%20Blum";
+                    }
+                </script>
+            </div>
+
+            <div class="bg-gray-700 p-6 rounded-lg text-center">
+                <h3 class="text-xl font-bold">Coub</h3>
+                <p class="mt-2 text-2xl font-semibold">Rp 50.000</p>
+                <ul class="mt-4 text-sm space-y-2">
+                    <li>- Auto Task</li>
+                    <li>- Auto Like</li>
+                    <li>- Auto Scroll Video</li>
+                    <li>- Telegram Account Protection</li>
+                    <li>- Real-Time 24jam</li>
+                </ul>
+                <a onclick="coub()" class="mt-4 px-6 py-2 bg-red-600 text-white rounded-lg inline-block font-semibold transition transform hover:scale-105 hover:bg-red-700 shadow-md hover:shadow-lg active:scale-95">Beli</a>
+                <script>
+                    function coub() {
+                        window.location.href = "https://wa.me/62881027107840?text=Joki%20airdrop%20Coub";
+                    }
+                </script>
+            </div>
+
+            <div class="bg-gray-700 p-6 rounded-lg text-center">
+                <h3 class="text-xl font-bold">MatchQuest</h3>
+                <p class="mt-2 text-2xl font-semibold">Rp 50.000</p>
+                <ul class="mt-4 text-sm space-y-2">
+                    <li>- Auto Task</li>
+                    <li>- Auto Play Game</li>
+                    <li>- Auto Boost</li>
+                    <li>- Telegram Account Protection</li>
+                    <li>- Real-Time 24jam</li>
+                </ul>
+                <a onclick="MatchQuest()" class="mt-4 px-6 py-2 bg-red-600 text-white rounded-lg inline-block font-semibold transition transform hover:scale-105 hover:bg-red-700 shadow-md hover:shadow-lg active:scale-95">Beli</a>
+                <script>
+                    function MatchQuest() {
+                        window.location.href = "https://wa.me/62881027107840?text=Joki%20airdrop%20MatchQuest";
+                    }
+                </script>
+            </div>
+
+            <div class="bg-gray-700 p-6 rounded-lg text-center">
+                <h3 class="text-xl font-bold">Yescoin</h3>
+                <p class="mt-2 text-2xl font-semibold">Rp 50.000</p>
+                <ul class="mt-4 text-sm space-y-2">
+                    <li>- Auto Task</li>
+                    <li>- Auto Play Game & Refill Energy</li>
+                    <li>- Auto Upgrade (opsional)</li>
+                    <li>- Telegram Account Protection</li>
+                    <li>- Real-Time 24jam</li>
+                </ul>
+                <a onclick="Yescoin()" class="mt-4 px-6 py-2 bg-red-600 text-white rounded-lg inline-block font-semibold transition transform hover:scale-105 hover:bg-red-700 shadow-md hover:shadow-lg active:scale-95">Beli</a>
+                <script>
+                    function Yescoin() {
+                        window.location.href = "https://wa.me/62881027107840?text=Joki%20airdrop%20Yescoin";
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section id="feature" class="py-12 px-6 bg-gray-900">
+        <h2 class="text-3xl font-bold text-center">Feature</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-center">
+            <div class="bg-gray-700 p-6 rounded-lg">
+                <h4 class="text-xl font-semibold">Perlindungan Akun</h4>
+                <p class="mt-2 text-sm">Kami menjamin keamanan akun telegram anda dari kebocoran data dan kehilangan.
+                </p>
+            </div>
+            <div class="bg-gray-700 p-6 rounded-lg">
+                <h4 class="text-xl font-semibold">Non-Detect Bot</h4>
+                <p class="mt-2 text-sm">Akun anda aman dari deteksi bot dan pembelokiran airdrop bot telegram.</p>
+            </div>
+            <div class="bg-gray-700 p-6 rounded-lg">
+                <h4 class="text-xl font-semibold">1 Jam Layanan Selesai</h4>
+                <p class="mt-2 text-sm">Kami cuma butuh proses satu jam untuk menyelesaikan proses airdrop</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contact" class="p-6 bg-gray-800 text-center">
+        <p>&copy; 2024 JATPRO. Seluruh hak cipta.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuBtn = document.getElementById("menu-btn");
+            const menuList = document.getElementById("menu-list");
+            const menuIconOpen = document.getElementById("menu-icon-open");
+            const menuIconClose = document.getElementById("menu-icon-close");
+
+            menuBtn.addEventListener("click", () => {
+                menuList.classList.toggle("hidden");
+                menuIconOpen.classList.toggle("hidden");
+                menuIconClose.classList.toggle("hidden");
+
+                menuBtn.classList.toggle("rotate-180");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
