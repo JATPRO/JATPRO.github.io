@@ -9,4 +9,4 @@ Disallow: /airdrop
 
 Allow: /
 
-Sitemap: https://
+Sitemap: https://jatpro.github.io/
